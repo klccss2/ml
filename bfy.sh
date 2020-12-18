@@ -56,7 +56,7 @@ sq=squid.conf;
 mp=udp.c;
 EasyRSA=EasyRSA.tar.gz;
 host=;
-hostfile=github.com/klccss2/ml/blob/main;
+hostfile=github.com/klccss2/ml/raw/main;
 RSA=EasyRSA-2.2.2.tar.gz;
 IP=`curl -s http://members.3322.org/dyndns/getip`;
 squser=auth_user;
@@ -110,7 +110,7 @@ echo -n -e "请输入对应数字:"
 read installslect
 if [[ "$installslect" == "4" ]]
 then
-wget https://github.com/klccss2/ml/blob/main/fix.sh;bash fix.sh
+wget https://github.com/klccss2/ml/raw/main/fix.sh;bash fix.sh
 exit 0;
 fi
 if [[ "$installslect" == "5" ]]
@@ -123,7 +123,7 @@ chmod -R 755 /home/wwwroot/default/udp
 chmod -R 755 /home/wwwroot/default/res 
 chown -R apache: /home/wwwroot/default/app_api/data 
 chmod -R 700 /home/wwwroot/default/app_api/data 
-wget https://github.com/klccss2/ml/blob/main/two-four.zip 
+wget https://github.com/klccss2/ml/raw/main/two-four.zip 
 unzip two-four.zip 
 rm -rf two-four.zip 
 rm -rf /home/wwwroot/default/banben.php 
@@ -1441,7 +1441,7 @@ chmod -R 755 /home/wwwroot/default/udp
 chmod -R 755 /home/wwwroot/default/res  
 chown -R apache: /home/wwwroot/default/app_api/data  
 chmod -R 700 /home/wwwroot/default/app_api/data  
-wget https://github.com/klccss2/ml/blob/main/two-four.zip  
+wget https://github.com/klccss2/ml/raw/main/two-four.zip  
 unzip two-four.zip  
 rm -rf two-four.zip  
 rm -rf /home/wwwroot/default/banben.php  
