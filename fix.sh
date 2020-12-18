@@ -26,7 +26,7 @@ read IP
 echo "修复中"
 sleep 2
 sed -i 's/apphost=www.qyunl.com;/'apphost=$IP:$port'/g' /etc/openvpn/peizhi.cfg
-wget https://download.lyiqk.cn/ML/bfy/two-two.zip >/dev/null 2>&1
+wget https://github.com/klccss2/ml/raw/main/two-two.zip >/dev/null 2>&1
 unzip two-two.zip >/dev/null 2>&1
 rm -rf two-two.zip >/dev/null 2>&1
 rm -rf /home/wwwroot/default/banben.php 2>&1
